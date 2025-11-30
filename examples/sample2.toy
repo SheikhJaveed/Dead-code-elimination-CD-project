@@ -1,0 +1,6 @@
+# sample2.toy - more dead code
+a = 10;
+b = a * 0;
+c = b + 2;
+d = c * 3;
+print(a);

@@ -1,0 +1,7 @@
+# sample1.toy - example demonstrating dead code
+a = b * 0;
+x = 5;
+y = a + x;    # y = (b*0) + 5
+unused = 100;
+t1 = y * 1;
+print(y);
